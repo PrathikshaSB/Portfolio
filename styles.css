@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    padding: 30px;
+    background-color: #ddd;
+    text-align: center;
+    border-bottom: 1px rgb(199, 196, 196) solid;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.973);
+    border: 2px solid #f5f5f5;
+    margin: 20px ;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 5px;
+    display: inline-block;
+    
+}
+
+.btn{
+    color: rgb(54, 54, 73);
+    border: 1.5px solid rgb(141, 141, 141);
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+
+#codel{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn:hover{
+    color: black;
+    border-radius: 30px;
+    background-color: rgb(243, 242, 242);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.973);
+    width: fit-content; 
+    /* max-width: 500px auto; */
+}
+  
+li {
+    display: inline-block;
+}
+  
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #ddd;
+}
+
+#profile-image{
+    border-radius: 50%;
+    float: left;
+    margin: 0 60px 0 40px;
+    width: 150px;
+    display: inline;
+}
+
+.about-info{
+    font-size: large;
+    text-align: left;
+    display: inline;
+}
+
+form {
+    max-width:420px; 
+    margin:50px auto; 
+}
+
+.feedback-input {
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #747070;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+textarea {
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+/* .wrapper{
+    width: 720px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+.wrapper form{
+    margin: 35px 30px;
+}
+
+form .dbl-field{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+
+.dbl-field .field{
+    height: 50px;
+    position: relative;
+    width: calc(100% / 2 - 13px);
+}
+
+form .field input,
+form .message textarea{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 18px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+.wrapper .field{
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    display: inline;
+
+} */
+
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Personal Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <div class="container" id="home">
+        <h1>Prathiksha S. B.</h1>
+        <h3 style="padding-bottom: 20px;">Software Developer</h3>
+
+        <div class="nav-bar">
+            <ul>
+                <li><a href="#home">Home</a> </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#form_sample">Contact</a></li>                
+            </ul>
+        </div>
+    </div>
+    
+
+    <div class="container" id="about">
+        <h2 style="text-align: center; padding-bottom: 20px;">About</h2>
+        <img src="picture.jpg"  id="profile-image" alt="profile-pic">
+        <div class="about-info">
+            <p style="margin-right: 30px;">Hello guys! Prathiksha S. B. here! I am a passionate developer who loves to explore web technologies. I am currently a student under Computer Science and Engineering branch in Bangalore. I am proficient in programming languages such as Java, C, C++ and basics of Python. I have an interest in UX design as well and am currently working on building my skills in web development and UX design too.<br>These are some of my notable skills mentioned below. Feel free to contact!
+            </p>
+            <!-- skills  -->
+            <button class="btn">HTML</button>
+            <button class="btn">CSS</button>
+            <button class="btn">JavaScript</button>
+            <button class="btn">Java</button>
+            <button class="btn">Android Dev</button>
+            <button class="btn">Front-end Dev</button>
+            <button class="btn">C & C++</button>
+            <button class="btn">DBMS</button>
+            <button class="btn">Networks</button>
+        </div>
+    </div>
+    
+
+    <div class="container" id="projects">
+        <h2 style="text-align: center;">Projects</h2>
+        <div class="card">
+            <h2 style=" font-weight: 400;">Contact Directory</h2>
+            <p>
+                A simple project built with HTML, CSS and Javascript. We can add and delete contacts to the directory. Simple Javascript is implemented where user defined functions are defined to take in the data from the user and to update into the directory and to delete. Further improvement can be done by making a local storage or storing into cloud.
+            </p>
+            <a id="codel" target="_blank" href="https://prathikshasb.github.io/Contact-DIrectory/" class="btn">View Project</a>
+            <a id="codel" target="_blank" href="https://github.com/PrathikshaSB/Contact-DIrectory" class="btn">View Code</a>
+            <br><br>
+            <!-- <button class="btn" onclick="window.location.href='https://prathikshasb.github.io/Contact-DIrectory/';">View Project</button> -->
+            <!-- <button class="btn" onclick="window.location.href='https://github.com/PrathikshaSB/Contact-DIrectory';">View Code</button> -->
+        </div>
+        <div class="card">
+            <h2 style="font-weight: 400;">Github Directory</h2>
+            <p>
+                A simple web application that fetches data from Github API and displays on the screen. The data is shown as a table by retrieving the user's github-avatar and username. Further enhancement can be done by improving the user-interface of the application and also allowing the application user to search for specific Github users.
+            </p>
+
+            <a id="codel" target="_blank" href="https://prathikshasb.github.io/Simple-Github-Directory/" class="btn">View Project</a>
+            <a id="codel" target="_blank" href="https://github.com/PrathikshaSB/Simple-Github-Directory" class="btn">View Code</a>
+            <br><br>
+            <!-- <button class="btn" onclick="window.location.href='https://prathikshasb.github.io/Simple-Github-Directory/';">View Project</button>
+            <button class="btn" onclick="window.location.href='https://github.com/PrathikshaSB/Simple-Github-Directory';">View Code</button> -->
+        </div>
+        <h3>exciting projects coming soon!!</h3>
+    </div>
+    
+
+    <div class="container" id="form_sample">
+        <h2 style="text-align: center;">Contact</h2>
+        <form onsubmit="return false" action="mailto:pprathikshasb@gmail.com">      
+            <input name="name" type="text" class="feedback-input" id="name" placeholder="Enter name" />   
+            <input name="email" type="text" class="feedback-input" id="email" placeholder="Enter email" />
+            <textarea name="text" class="feedback-input" id="feedback" placeholder="Feedback"></textarea>
+            <input type="submit" class="btn" value="SUBMIT" id="submit"/>
+        </form>
+    </div>
+
+    <!-- <div class="container wrapper">
+        <h2>Contact</h2>
+        <form action="#">
+            <div class="dbl-field">
+                <div class="field">
+                    <input type="text" placeholder="enter your name">
+                </div>
+                <div class="field">
+                    <input type="text" placeholder="enter email">
+                </div>
+            </div>
+            <div class="message">
+                <textarea placeholder="enter message"></textarea>      
+            </div>
+            <div class="button-area">
+                <button class="btn" type="submit" >send message</button>
+                <span>sending your message...</span>
+            </div>
+        </form>
+    </div> -->
+
+    <div class="container">
+        <p style=" margin: 0; padding:0;">Built by Prathiksha S. B.</p>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
